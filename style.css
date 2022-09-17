@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope',sans-serif;
+}
+
+body
+{
+    background: rgb(153, 207, 249);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+main
+{
+    width: 757px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.image
+{
+    width: 35%;
+}
+
+
+.image img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.secondContainer
+{
+    width: 65%;
+    height: auto;
+    font-weight: 400;
+    box-sizing: border-box;
+    
+}
+.textPage
+{ 
+    width: 65%;
+    
+}
+
+.textPage h2
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.textPage .text
+{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.text 
+{
+    padding: 10px 0px;
+}
+
+.textPage h2
+{
+    font-weight: 700;
+}
+
+.profilePic
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile
+{ 
+    display: flex;
+    align-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.about
+{
+    margin-left: 1px;
+    margin-top: 10px;
+}
+
+.date
+{
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    color: rgb(163, 207, 212);
+}
+
+.share
+{
+    
+    align-self: center;
+    margin-left: 50%;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.share:hover
+{
+    background-color: darkgrey;
+    color: white;
+}
+
+
+img
+{
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.image img
+{
+    padding: 0;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.popUp 
+{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 370px;
+    right: 320px;
+    padding: 10px;
+    color: white;
+    background-color: #28284e;
+    width: 200px;
+    border-radius: 10px;
+    
+    
+}
+
+
+.popUp img:hover
+{
+  cursor: pointer;
+  color: rgb(35, 17, 45);
+}
+
+.popUp p
+{
+    font-weight: 400;
+    margin-top: 5px;
+    letter-spacing: 3px;
+    color: rgb(211, 209, 206);
+}
+
+.popUp p:hover
+{
+    cursor: pointer;
+}
+
+.triangle
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 40px;
+    right: 90px;
+    transform: rotate(45deg);
+    background: #28284e;
+}
+
+#none
+{
+    opacity: 0;
+}
+
+.mobile
+{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    display: none;
+    
+    
+}
+.mobile span
+{
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: rgb(211, 209, 206);
+}
+
+
+.atr
+
+
+
+
+
+
+@media (max-width:400px) {
+   body
+    {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        font-size: 12px;
+        width: -50vw;
+        height: -50vh;
+        
+    }
+
+    footer{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    main
+    {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: auto;
+        margin: 10px;
+        margin-top: 80px;
+
+
+    }
+
+    #none
+    {
+        opacity: 0 ;
+    }
+
+    .image
+    {
+        width: 100%;
+
+    }
+
+    .textPage
+    {
+        width: 100%;
+    }
+
+    .username
+    {
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .image img
+{
+    padding: 0;
+    border-radius: 10px 10px 0px 0px;
+}
+
+    .share{
+        margin-left:50px;
+    }
+
+    .mystyle {
+        width: 100%;
+        padding-top: 30px;
+        background: #28284e;
+    } 
+
+    .mystyle .about 
+{
+    display: none;
+}
+
+.mystyle .profilePic {
+    display: none;
+}
+
+
+
+.mystyle .mobile
+{
+    display: block;
+}
+   
+    
+    
+}
+
